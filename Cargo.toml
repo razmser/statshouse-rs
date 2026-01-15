@@ -13,10 +13,14 @@ opt-level = 2
 opt-level = 1
 
 [workspace.package]
-version = "0.1.0"
-authors = ["V Kontakte LLC"]
-homepage = "https://github.com/vkcom/statshouse-rs"
-repository = "https://github.com/vkcom/statshouse-rs"
+version = "0.1.1"
+authors = [
+    "Gregory Petrosyan <pgregory@pgregory.net>",
+    "Mikhail Alpinskiy <m.alpinskiy@vk.team>",
+    "Sergei Razmetov <razmser@gmail.com>",
+]
+homepage = "https://github.com/razmser/statshouse-rs"
+repository = "https://github.com/razmser/statshouse-rs"
 categories = [
     "statshouse",
     "observability",
