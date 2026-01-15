@@ -56,7 +56,7 @@ fn run_ci(parser: &mut Parser, sh: &Shell) -> Result<(), BoxedError> {
 
     cmd!(
         sh,
-        "go run github.com/vkcom/statshouse/cmd/statshouse-client-test@master"
+        "go run github.com/VKCOM/statshouse/cmd/statshouse-client-test@master"
     )
     .run()?;
     cmd!(sh, "cargo fmt --check").run()?;
